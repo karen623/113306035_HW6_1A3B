@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentID_HW6_1A2B</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #results {
+            margin-top: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>123456_HW6_1A2B</h1>
+    <input type="text" id="guess" placeholder="Enter 4 unique digits" maxlength="4">
+    <button onclick="submitGuess()">Submit</button>
+    <div id="error-message" class="error"></div>
+    <div id="results"></div>
+</body>
+<script src="script.js"></script> <!-- 修正為相對路徑 -->
+</html>
